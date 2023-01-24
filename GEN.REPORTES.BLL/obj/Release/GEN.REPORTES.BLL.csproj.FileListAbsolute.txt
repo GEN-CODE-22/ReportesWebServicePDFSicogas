@@ -1,0 +1,14 @@
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\GEN.REPORTES.BLL.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\GEN.REPORTES.BLL.pdb
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\GEN.REPORTES.DAL.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\GEN.REPORTES.ETY.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\itextsharp.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\GEN.REPORTES.DAL.pdb
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\GEN.REPORTES.ETY.pdb
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\bin\Release\itextsharp.xml
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\obj\Release\GEN.REPORTES.BLL.csproj.AssemblyReference.cache
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\obj\Release\GEN.REPORTES.BLL.csproj.CoreCompileInputs.cache
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\obj\Release\GEN.REPORTES.BLL.csproj.CopyComplete
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\obj\Release\GEN.REPORTES.BLL.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.BLL\obj\Release\GEN.REPORTES.BLL.pdb

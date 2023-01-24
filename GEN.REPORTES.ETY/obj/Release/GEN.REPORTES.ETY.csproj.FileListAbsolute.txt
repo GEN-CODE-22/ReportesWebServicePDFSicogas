@@ -1,0 +1,5 @@
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\bin\Release\GEN.REPORTES.ETY.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\bin\Release\GEN.REPORTES.ETY.pdb
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Release\GEN.REPORTES.ETY.csproj.CoreCompileInputs.cache
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Release\GEN.REPORTES.ETY.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Release\GEN.REPORTES.ETY.pdb

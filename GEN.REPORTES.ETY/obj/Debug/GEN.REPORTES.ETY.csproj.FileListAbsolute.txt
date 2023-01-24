@@ -1,0 +1,6 @@
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\bin\Debug\GEN.REPORTES.ETY.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\bin\Debug\GEN.REPORTES.ETY.pdb
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Debug\GEN.REPORTES.ETY.csproj.AssemblyReference.cache
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Debug\GEN.REPORTES.ETY.csproj.CoreCompileInputs.cache
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Debug\GEN.REPORTES.ETY.dll
+C:\Users\julio\Desktop\Proyectos Gas Express\Reportes\ReportesSicogas\GEN.REPORTES.ETY\obj\Debug\GEN.REPORTES.ETY.pdb
