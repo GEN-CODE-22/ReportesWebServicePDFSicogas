@@ -17,10 +17,10 @@ using System.Web.Http;
 namespace GEN.ReportesSicogas.Controllers
 {
     [RoutePrefix("api/reportes")]
-   
+
     public class ValuesController : ApiController
     {
-       
+
         /// <summary>
         /// Guardar el Token y la devolucion de la configuracion
         /// </summary>
@@ -28,41 +28,42 @@ namespace GEN.ReportesSicogas.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("reporte")]
-        
+
         public HttpResponseMessage GetReporte([FromBody] BodyReporte body)
         {
-           
-                if (body.Server == null) return Request.CreateResponse(HttpStatusCode.NotFound, "No Enviaste un campo Requerido");
 
-                Servidor servidor = ReportesDAL.servidores.Select(e => e).Where(e => e.ServerName == body.Server).FirstOrDefault();
+            if (body.Server == null) return Request.CreateResponse(HttpStatusCode.NotFound, "No Enviaste un campo Requerido");
 
-                if (servidor == null) return Request.CreateResponse(HttpStatusCode.NotFound, $"Servidor no encontrado");
-                
-                var bll = new ReportesBLL(servidor.Ip, body.user, body.password);
+            Servidor servidor = ReportesDAL.servidores.Select(e => e).Where(e => e.ServerName == body.Server).FirstOrDefault();
 
-                var respuesta = bll.DescargarReporte(body.NameFile);
-               
+            if (servidor == null) return Request.CreateResponse(HttpStatusCode.NotFound, $"Servidor no encontrado");
 
-                if (!respuesta) return Request.CreateResponse(HttpStatusCode.BadRequest, $"Hubo un problema la descargar el archivo");
+            var bll = new ReportesBLL(servidor.Ip, body.user, body.password);
 
-                HttpResponseMessage result = new HttpResponseMessage(HttpStatusCode.OK);
+            var respuesta = bll.DescargarReporte(body.NameFile);
 
-                string fileNameDirectory = "C:\\Logs\\" + body.NameFile.Replace(".REP", ".pdf");
-               
-                var stream = new FileStream(fileNameDirectory, FileMode.Open, FileAccess.Read);
-                result.Content = new StreamContent(stream);
-                result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
-                return result;
-            
+
+            if (!respuesta) return Request.CreateResponse(HttpStatusCode.BadRequest, $"Hubo un problema la descargar el archivo");
+
+            HttpResponseMessage result = new HttpResponseMessage(HttpStatusCode.OK);
+
+            string fileNameDirectory = "C:\\Logs\\" + body.NameFile.Replace(".REP", ".pdf");
+
+            var stream = new FileStream(fileNameDirectory, FileMode.Open, FileAccess.Read);
+            result.Content = new StreamContent(stream);
+            result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
+
+            if (File.Exists(fileNameDirectory)) File.Delete(fileNameDirectory);
+            if (File.Exists(body.NameFile)) File.Delete(body.NameFile);
+            return result;
+
 
 
         }
-   
-    
-        [HttpGet]
+
+
+        [HttpPost]
         [Route("reportes")]
-
-
 
         public HttpResponseMessage GetReportes([FromBody] BodyReporte body)
         {
@@ -72,7 +73,7 @@ namespace GEN.ReportesSicogas.Controllers
 
             if (servidor == null) return Request.CreateResponse(HttpStatusCode.NotFound, $"Servidor no encontrado");
 
-            var bll = new ReportesBLL(servidor.Ip,body.user,body.password);
+            var bll = new ReportesBLL(servidor.Ip, body.user, body.password);
 
             var respuesta = bll.ReportesDisponibles();
 

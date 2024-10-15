@@ -8,23 +8,23 @@ using System.Threading.Tasks;
 
 namespace GEN.REPORTES.DAL
 {
-    public  class clsFtpService
+    public class clsFtpService
     {
-        
+
 
         private readonly string ip, usr, password;
 
         private clsFtpService(string ip, string user, string password)
         {
             this.ip = $"ftp://{ip}";
-            this.usr = user ;
+            this.usr = user;
             this.password = password;
         }
 
 
         public static clsFtpService GetInstance(string ip, string user, string password) => new clsFtpService(ip, user, password);
-          
-        
+
+
 
 
 
@@ -51,14 +51,14 @@ namespace GEN.REPORTES.DAL
 
                 IList<string> files = names.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-                var algo =  files.Select(e => e.Contains(".REP"));
+                var algo = files.Select(e => e.Contains(".REP"));
 
 
-                reportesName.AddRange  ((from rep in files where rep.Contains(".REP") select rep).ToList());
+                reportesName.AddRange((from rep in files where rep.Contains(".REP") select rep).ToList());
 
 
-               
-               
+
+
 
 
                 return reportesName;
@@ -96,7 +96,7 @@ namespace GEN.REPORTES.DAL
             }
             catch (Exception e)
             {
-               
+
                 return null;
             }
         }
@@ -136,7 +136,7 @@ namespace GEN.REPORTES.DAL
             }
             catch (Exception ex)
             {
-                
+
                 return null;
             }
 
@@ -149,48 +149,44 @@ namespace GEN.REPORTES.DAL
             try
             {
 
-               
+
                 string exist = searchFileFTP(fileName);
 
 
                 if (exist == null) return null;
-
-
-
                 string fileFtpPath = this.ip + "/" + fileName;
 
 
                 WebClient client = new WebClient();
-                
-                    client.Credentials = new NetworkCredential(this.usr, this.password);
-    
-                    byte[] fileData = client.DownloadData(fileFtpPath);
+                client.Credentials = new NetworkCredential(this.usr, this.password);
 
-                    string fileNameDirectory = "C:\\Logs\\" + fileName.Replace(".REP", ".txt");
+                byte[] fileData = client.DownloadData(fileFtpPath);
 
-                    if (File.Exists(fileNameDirectory)) File.Delete(fileNameDirectory);
+                string fileNameDirectory = "C:\\Logs\\" + fileName.Replace(".REP", ".txt");
 
-                    using(FileStream file = File.Create(fileNameDirectory))
+                if (File.Exists(fileNameDirectory)) File.Delete(fileNameDirectory);
+
+                using (FileStream file = File.Create(fileNameDirectory))
                 {
                     file.Write(fileData, 0, fileData.Length);
                 }
 
-                   
-                    
-                    
 
-                 
 
-                
+
+
+
+
+
 
 
                 return "ok";
 
-                
+
             }
             catch (Exception ex)
             {
-              
+
                 return null;
             }
         }

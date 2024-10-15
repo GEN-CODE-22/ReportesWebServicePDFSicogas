@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\julio\Desktop\Deploy\ReportesSicogas</_PublishTargetUrl>
-    <History>True|2023-01-09T18:03:46.5285309Z;True|2022-12-30T14:14:40.2675824-06:00;True|2022-12-30T13:23:28.9845349-06:00;True|2022-12-30T11:18:02.1833249-06:00;True|2022-12-29T17:21:35.6831408-06:00;True|2022-12-29T17:21:02.5882488-06:00;True|2022-12-29T17:11:46.7681634-06:00;True|2022-12-29T17:00:15.4390711-06:00;True|2022-12-29T13:00:52.3534025-06:00;</History>
+    <History>True|2023-10-26T21:31:04.2981169Z;True|2023-10-26T15:30:46.5698434-06:00;True|2023-10-26T15:30:35.1430167-06:00;True|2023-10-26T15:13:18.3223821-06:00;True|2023-01-09T12:03:46.5285309-06:00;True|2022-12-30T14:14:40.2675824-06:00;True|2022-12-30T13:23:28.9845349-06:00;True|2022-12-30T11:18:02.1833249-06:00;True|2022-12-29T17:21:35.6831408-06:00;True|2022-12-29T17:21:02.5882488-06:00;True|2022-12-29T17:11:46.7681634-06:00;True|2022-12-29T17:00:15.4390711-06:00;True|2022-12-29T13:00:52.3534025-06:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/HelpPage/HelpPage.css">
@@ -72,13 +72,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>12/27/2022 14:08:36</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>09/10/2013 17:29:20</publishTime>
+      <publishTime>10/09/2013 17:29:20</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>09/10/2013 17:29:20</publishTime>
+      <publishTime>10/09/2013 17:29:20</publishTime>
     </File>
     <File Include="bin/BouncyCastle.Crypto.dll">
-      <publishTime>12/08/2020 12:05:32</publishTime>
+      <publishTime>08/12/2020 12:05:32</publishTime>
     </File>
     <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
       <publishTime>05/27/2022 18:36:16</publishTime>
@@ -93,10 +93,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/28/2018 07:03:04</publishTime>
     </File>
     <File Include="bin/es/System.Web.Mvc.resources.dll">
-      <publishTime>11/28/2018 07:00:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/es/System.Web.Optimization.resources.dll">
-      <publishTime>02/11/2014 09:28:40</publishTime>
+      <publishTime>11/02/2014 09:28:40</publishTime>
     </File>
     <File Include="bin/es/System.Web.Razor.resources.dll">
       <publishTime>11/28/2018 07:00:22</publishTime>
@@ -111,34 +111,34 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/28/2018 07:04:36</publishTime>
     </File>
     <File Include="bin/GEN.REPORTES.BLL.dll">
-      <publishTime>01/09/2023 12:03:45</publishTime>
+      <publishTime>10/26/2023 15:30:33</publishTime>
     </File>
     <File Include="bin/GEN.REPORTES.BLL.pdb">
-      <publishTime>01/09/2023 12:03:45</publishTime>
+      <publishTime>10/26/2023 15:30:33</publishTime>
     </File>
     <File Include="bin/GEN.REPORTES.DAL.dll">
-      <publishTime>01/09/2023 12:03:45</publishTime>
+      <publishTime>10/26/2023 15:30:33</publishTime>
     </File>
     <File Include="bin/GEN.REPORTES.DAL.pdb">
-      <publishTime>01/09/2023 12:03:45</publishTime>
+      <publishTime>10/26/2023 15:30:33</publishTime>
     </File>
     <File Include="bin/GEN.REPORTES.ETY.dll">
-      <publishTime>12/29/2022 13:00:49</publishTime>
+      <publishTime>01/24/2023 18:00:57</publishTime>
     </File>
     <File Include="bin/GEN.REPORTES.ETY.pdb">
-      <publishTime>12/29/2022 13:00:49</publishTime>
+      <publishTime>01/24/2023 18:00:57</publishTime>
     </File>
     <File Include="bin/GEN.ReportesSicogas.dll">
-      <publishTime>01/09/2023 12:03:45</publishTime>
+      <publishTime>10/26/2023 15:31:03</publishTime>
     </File>
     <File Include="bin/GEN.ReportesSicogas.pdb">
-      <publishTime>01/09/2023 12:03:45</publishTime>
+      <publishTime>10/26/2023 15:31:03</publishTime>
     </File>
     <File Include="bin/itextsharp.dll">
       <publishTime>02/24/2022 07:50:06</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>09/05/2018 17:10:50</publishTime>
+      <publishTime>05/09/2018 17:10:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 12:48:56</publishTime>
@@ -246,7 +246,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/28/2018 12:59:46</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/11/2014 15:26:04</publishTime>
+      <publishTime>11/02/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>11/28/2018 13:00:12</publishTime>
